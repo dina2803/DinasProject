@@ -36,6 +36,11 @@ body {
     font-weight: 500;
     line-height: normal;
 }
+@media (max-width: 1050px) {
+    .menu__inner h1 {
+        font-size: 60px;
+    }
+}
 .logo {
     position: absolute;
     top: 20px;
@@ -50,6 +55,30 @@ body {
     margin-left: 137px;
     margin-top: 24px;
 }
+@media (max-width: 1325px) {
+    .logo h3 {
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1099px) {
+    .logo h3 {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1050px) {
+    .logo h3 {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 250px) {
+    .logo h3 {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
 .icons {
     position: absolute;
     display: flex;
@@ -59,11 +88,71 @@ body {
     left: 1500px;
     top: 30px;
 }
-
+@media (max-width: 1438px) {
+    .icons {
+        left: 1200px;
+    }
+}
+@media (max-width: 1370px) {
+    .icons {
+        left: 1100px;
+    }
+}
+@media (max-width: 1270px) {
+    .icons {
+        left: 1000px;
+    }
+}
+@media (max-width: 1170px) {
+    .icons {
+        left: 920px;
+    }
+}
+@media (max-width: 1099px) {
+    .icons {
+        left: 880px;
+    }
+}
+@media (max-width: 1050px) {
+    .icons {
+        left: 800px;
+        top: 24px;
+        gap: 20px;
+    }
+}
+@media (max-width: 250px) {
+    .icons {
+        left: 60px;
+    }
+}
 /*filter*/
 .filter {
     display: inline-block;
     margin-left: 180px;
+}
+@media (max-width: 1325px) {
+    .filter {
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+}
+@media (max-width: 1099px) {
+    .filter {
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+}
+@media (max-width: 1050px) {
+    .filter {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1000px) {
+    .filter {
+        display: flex;
+        flex-flow: column wrap;
+        margin-left: 50px;
+    }
 }
 .filter h2 {
     color: #000;
@@ -79,6 +168,16 @@ body {
     gap: 18px;
     margin-bottom: 14px;
 }
+@media (max-width: 1050px) {
+    .filter .box {
+        gap: 5px;
+    }
+}
+@media (max-width: 1000px) {
+    .filter .box {
+        gap: 10px;
+    }
+}
 .filter button {
     display: flex;
     width: 168px;
@@ -91,11 +190,57 @@ body {
     background: #50ABFF;
     color: #FFFFFF;
 }
+@media (max-width: 1050px) {
+    .filter button {
+        width: 130px;
+        gap: 10px;
+    }
+}
 
 .tips {
     display: flex;
     /*justify-content: space-between;*/
     gap: 127px;
+}
+@media (max-width: 1325px) {
+    .tips {
+        gap: 100px;
+    }
+}
+@media (max-width: 1177px) {
+    .tips {
+        gap: 80px;
+    }
+}
+@media (max-width: 1134px) {
+    .tips {
+        gap: 50px;
+    }
+}
+@media (max-width: 1099px) {
+    .tips {
+        gap: 20px;
+    }
+}
+@media (max-width: 1050px) {
+    .tips {
+        gap: 18px;
+    }
+}
+@media (max-width: 1050px) {
+    .tips {
+        gap: 18px;
+    }
+}
+@media (max-width: 1000px) {
+    .tips {
+        gap: 100px;
+    }
+}
+@media (max-width: 250px) {
+    .tips {
+        gap: 10px;
+    }
 }
 
 /*news*/
@@ -108,6 +253,17 @@ body {
     border-bottom: 2px solid #D9D9D9;
     align-items: flex-start;
 }
+@media (max-width: 1050px) {
+    .news .boxes {
+        gap: 0;
+    }
+}
+@media (max-width: 1000px) {
+    .news .boxes {
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
 .news .boxes:last-child {
     border-bottom: none;
     margin-bottom: 124px;
@@ -119,6 +275,12 @@ body {
 .boxes .global__img img {
     margin-bottom: 16px;
     margin-top: 16px;
+}
+@media (max-width: 1000px) {
+    .news .global__img img {
+        margin-bottom: 0;
+        margin-top: 21px;
+    }
 }
 .news .boxes .precondition {
     display: flex;
@@ -144,6 +306,11 @@ body {
     color: #858080;
     font-size: 16px;
 }
+@media (max-width: 250px) {
+    .news .boxes .main p {
+        font-size: 10px;
+    }
+}
 .news .boxes .main a {
     color: #7E5BC2;
     font-size: 16px;
@@ -151,6 +318,11 @@ body {
 .news .boxes .main img {
     display: flex;
     margin-top: 15px;
+}
+@media (max-width: 1000px) {
+    .news .boxes .main img {
+        margin-bottom: 24px;
+    }
 }
 
 /*footer*/
